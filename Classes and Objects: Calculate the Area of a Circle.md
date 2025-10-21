@@ -27,3 +27,4 @@ obj.mech()
 <img width="699" height="193" alt="Screenshot 2025-10-20 213351" src="https://github.com/user-attachments/assets/28a2511a-8df9-4fd9-aa10-593034f286e1" />
 
 ## Result
+Thus,the Python program that calculates the area of a circle based on the radius given by user and using class(cse) and method(mech) to perform a calculation is created successfully
