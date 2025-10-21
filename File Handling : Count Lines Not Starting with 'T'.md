@@ -13,16 +13,15 @@ To write a Python program that counts the number of lines in a text file `story.
 
 ## 🧾 Program
 ```
-def create_file(file_path,content):
-    with open(file_path,'w') as file:
-        file.write(content)
-def print_lines_with_substring(file_path,substring):
-    with open(file_path,"r") as file:
-        for i in file:
-            if substring in i:
-                print(i.strip())
+count = 0
+with open("story.txt", "r") as file:
+    for line in file:
+        if line[0] != 'T':
+            count += 1
+print(count)
 ```
 ## Output
 <img width="1832" height="210" alt="Screenshot 2025-10-21 172615" src="https://github.com/user-attachments/assets/ef5a637c-f250-49f1-b93e-e6f3bc8d9534" />
 
 ## Result
+Thus,the Python program that counts the number of lines in a text file story.txt that do not start with the alphabet 'T' is executed successfully.
