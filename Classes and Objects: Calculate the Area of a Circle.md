@@ -12,13 +12,15 @@ To write a Python program that calculates the **area of a circle** based on the 
 
 ## 🧾 Program
 ```
+import math
 class cse:
-    def mech():
-        import math
-        a=int(input())
-        c=math.pi*(a*a)
+    def mech(self):
+        a = int(input())
+        c = math.pi * (a * a)
         print(f"Area of circle: {c:.2f}")
-    mech()
+obj = cse()
+obj.mech()
+
 ```
 
 ## Output
